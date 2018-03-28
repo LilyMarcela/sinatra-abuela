@@ -11,7 +11,7 @@ post '/form' do
     if @abue == @abue.upcase && @abue != ""
 
         <<-HTML
-        <h1> Ahh si , #{params[:message].downcase!} !</h1>
+        <h1> Ahh si, manzanas!</h1>
         HTML
 
 
