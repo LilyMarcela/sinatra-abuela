@@ -5,10 +5,10 @@ end
 
 post '/form' do
 
-    abue = params[:message]
+    @abue = params[:message]
 
 
-    if abue == abue.upcase
+    if @abue == @abue.upcase && @abue != ""
 
         <<-HTML
         <h1> Ahh si , #{params[:message].downcase!} </h1>
